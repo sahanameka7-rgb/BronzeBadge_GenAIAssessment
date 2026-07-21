@@ -19,6 +19,10 @@ As per the provided data set(high collinear) productivity also has positive corr
 
 6)How would you detect overfitting in this model?
 The training MSE & R2 score are higher/good while the testing MSE & R2 score are very poor. Which indicates model is overfit for the training data. This can be solved by increasing the training data added more features like Project Complexity Score, Task Complexity Score, Skill Levels..etc.
+Training Set MSE: 0.014251781472683883
+Testing set MSE: 285.4434188477839
+Training Data R2 Score: 0.9999147875547224
+Testing Data R2 Score: -22.30150357941093
 
 7)Suggest one new feature to improve prediction accuracy.
 As data here is very less if we can increase the data it can improve the prediction accuracy. May be we can add few more features like Project Complexity Score, Task Complexity Score, Skill Levels..etc which can 
