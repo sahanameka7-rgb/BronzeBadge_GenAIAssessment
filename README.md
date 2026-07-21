@@ -33,7 +33,6 @@ How would you detect overfitting in this model?
 Suggest one new feature to improve prediction accuracy. 
 
 **Problem Statement:2 **
-
 A financial institution wants to predict whether a customer will default on a loan before approving it. Early identification of risky customers helps reduce financial loss. 
 
 You are working as a Machine Learning Analyst and must build a classification model using the K-Nearest Neighbors (KNN) algorithm to predict loan default. 
