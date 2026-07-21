@@ -1,1 +1,24 @@
+Interpretations: 
 
+1)Which factor most strongly impacts productivity? 
+As per the correlation matrix both training as well as working hours have positive correlation with Productivity Score. 
+
+2)How does training affect productivity? 
+Training hours has positive correlation with productivity score which means if training hours increases productivity scores also increases.
+
+3)Should the company increase training hours or working hours?
+As per the data both Working hours & Training Hours has strong/tight correlation with the Productivity Score.
+Company shouldn't increase the working hours unless there is a proof that employees are underutlized.
+
+4)What happens if Working Hours increase beyond optimal limits?
+Increasing working hours beyond optimal limits may decrease productivity. Over working may exhaust employees and can lead to mistakes/errors. over working can lead to Burn out and will drop the creative & problem solving capabilities.
+Over all productivity/her/day will decline.
+
+5)Can productivity ever decrease with more experience? 
+As per the provided data set(high collinear) productivity also has positive correlation with experience. Which mean as experience increases productivity also increases. This model cannot isolate the true effects of experince.
+
+6)How would you detect overfitting in this model?
+The training MSE & R2 score are higher/good while the testing MSE & R2 score are very poor. Which indicates model is overfit for the training data. This can be solved by increasing the training data added more features like Project Complexity Score, Task Complexity Score, Skill Levels..etc.
+
+7)Suggest one new feature to improve prediction accuracy.
+As data here is very less if we can increase the data it can improve the prediction accuracy. May be we can add few more features like Project Complexity Score, Task Complexity Score, Skill Levels..etc which can 
